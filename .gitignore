@@ -1,0 +1,29 @@
+# Environment
+.env
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Data
+data/raw_docs/*
+data/processed/*
+data/vector_db/*
+!data/raw_docs/.gitkeep
+!data/processed/.gitkeep
+!data/vector_db/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Testing
+.pytest_cache/
+.coverage
