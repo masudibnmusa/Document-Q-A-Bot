@@ -109,13 +109,6 @@ streamlit run app/main.py
 pytest tests/
 ```
 
-## 🗺️ Roadmap
-
-- [ ] Add hybrid search (BM25 + semantic)
-- [ ] Add reranking (Cohere Rerank / cross-encoder)
-- [ ] Support multi-document comparison queries
-- [ ] Deploy to Vercel/Render with Docker
-
 ## 📄 License
 
 MIT
