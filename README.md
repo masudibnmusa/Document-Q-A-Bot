@@ -23,25 +23,32 @@ A Retrieval-Augmented Generation (RAG) chatbot that lets you upload PDFs/documen
 
 ## 📁 Project Structure
 
+```text
 document-qa-bot/
+│
 ├── app/
-│ ├── main.py # Entry point
-│ ├── config.py # API keys, settings
-│ ├── ingestion/ # Loading & chunking
-│ ├── embeddings/ # Embedding generation
-│ ├── vectorstore/ # Vector DB + retrieval
-│ ├── generation/ # LLM calls + prompts
-│ ├── qa_pipeline.py # Orchestration
-│ └── utils/ # Citation formatting, logging
+│   ├── main.py                  # Entry point
+│   ├── config.py                # API keys and application settings
+│   │
+│   ├── ingestion/               # Document loading and chunking
+│   ├── embeddings/              # Embedding generation
+│   ├── vectorstore/             # Vector database and retrieval
+│   ├── generation/              # LLM calls and prompt management
+│   ├── qa_pipeline.py           # QA pipeline orchestration
+│   └── utils/                   # Citation formatting and logging
+│
 ├── data/
-│ ├── raw_docs/
-│ ├── processed/
-│ └── vector_db/
-├── tests/
-├── notebooks/
-├── .env.example
-├── requirements.txt
-└── run.sh
+│   ├── raw_docs/                # Original documents
+│   ├── processed/               # Processed and chunked documents
+│   └── vector_db/               # Stored vector database
+│
+├── tests/                       # Unit and integration tests
+├── notebooks/                   # Experiments and development notebooks
+│
+├── .env.example                 # Environment variable template
+├── requirements.txt             # Python dependencies
+└── run.sh                       # Application startup script
+```
 
 
 ## 🚀 Getting Started
